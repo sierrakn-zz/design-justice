@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Website prototype for Designing for Justice: Language Access",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app"
+  },
   "author": "",
   "repository": {
     "type": "git",
