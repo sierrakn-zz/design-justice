@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body {
+    font-family: 'museo300', 'Arial';
+
+	font-weight: 300;
+	font-size: 20px;
+	color: #FFF;
+
+	margin: 0;
+	margin-top: 40;
+	text-align: center;
+}
+
+a:-webkit-any-link{
+	text-decoration:none !important;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+li {
+	margin-bottom: 30;
+	margin-right: 10;
+	text-align: left;
+	font-size: 18px;
+}
+
+.page-title {
+	padding: 20;
+	font-size: 22px;
+	color: black;
+}
+
+/******************HOME PAGE******************/
+
+.ispeak {
+	padding: 20px;
+	margin: 3px;
+	border: 3px;
+	border-color: #fff;
+	min-height: 24px;
+	background-color: #186ef9;
+}
+
+.ispeak:hover { 
+    background-color: #02009b;
+}
+
+/******************LANGUAGE HOME******************/
+
+.translate {
+	width: 50%;
+	right: 0;
+	top: 0;
+	position: fixed;
+	padding: 10px;
+	margin: 3px;
+	border: 3px;
+	border-color: #fff;
+	min-height: 20px;
+	background-color: #186ef9;
+	border-radius: 20px;
+}
+
+.translate:hover { 
+    background-color: #02009b;
+}
+
+.faq {
+	color: black;
+}
+
+.directions {
+	margin: 20px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.map {
+	background-color: #777;
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.map:hover {
+	background-color: #333;
+}
+
+.map-img {
+	width: 100%;
+	height: auto;
+}
